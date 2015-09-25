@@ -5,12 +5,24 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.parse.Parse;
+import com.parse.ParseObject;
+
 
 public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //  parse initializer statement
+        Parse.enableLocalDatastore(this);
+        Parse.initialize(this, "L239QoxOAQHJEhoYRa0qEZUHAEVqD3nTL12ivdne", "pugVQh54xL3OxlpXM7oB4yizShft4C7hwTiLlsBh");
+
+        ParseObject testObject = new ParseObject("TestObject");
+        testObject.put("foo", "bar");
+        testObject.saveInBackground();
+
         setContentView(R.layout.activity_main);
     }
 
