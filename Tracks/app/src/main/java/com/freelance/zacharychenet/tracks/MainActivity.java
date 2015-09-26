@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.freelance.zacharychenet.tracks.TracksCoreBackEnd.Purchases;
 import com.parse.Parse;
 import com.parse.ParseObject;
 
@@ -16,12 +17,13 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         //  parse initializer statement
+        //  allows saving to local datastore
         Parse.enableLocalDatastore(this);
+        //  registers class for the table we want to save purchases to
+        ParseObject.registerSubclass(Purchases.class);
+        //  initializes the app to the parse database
         Parse.initialize(this, "L239QoxOAQHJEhoYRa0qEZUHAEVqD3nTL12ivdne", "pugVQh54xL3OxlpXM7oB4yizShft4C7hwTiLlsBh");
 
-        ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "bar");
-        testObject.saveInBackground();
 
         setContentView(R.layout.activity_main);
     }
