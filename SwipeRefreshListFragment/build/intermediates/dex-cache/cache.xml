@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zacharychenet/Library/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-4499585995292115e6bb73f797b3178a497a1c7c.jar" />
+    </item>
+    <item
+        jar="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5d4bccb885c8a89d066ecb6c4addb553a99a79a2">
+        <dex dex="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-1ab30cedffed9e339da8d0b4574d35536c044a5d.jar" />
+    </item>
+    <item
+        jar="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="bb0ac3f3ee2d71854501cc28e52cc84a20209b41">
+        <dex dex="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/pre-dexed/debug/classes-f882b2b3f013a5c9fc95b2f94380686908de688f.jar" />
+    </item>
+    <item
+        jar="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-4534012873ea92d6e3da356e7396cf1053eef1c7.jar" />
+    </item>
+    <item
+        jar="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/pre-dexed/debug/classes-ac0ce0877a5d0e59cdc420d60a14cf742d84ecbc.jar" />
+    </item>
+    <item
+        jar="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/zacharychenet/Google Drive/work/android/tracksApp/tracks/SwipeRefreshListFragment/Application/build/intermediates/pre-dexed/debug/classes-02f7065c1336bf79ca5febf732e6530f94d2a1ff.jar" />
+    </item>
+
+</items>
